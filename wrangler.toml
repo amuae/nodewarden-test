@@ -1,0 +1,14 @@
+name = "nodewarden-test"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# D1 Database for storing vault data
+[[d1_databases]]
+binding = "DB"
+database_name = "nodewarden-db"
+database_id = "99640a36-ed79-4305-bea0-a5e455c6b1ad"
+
+# R2 Bucket for storing attachments
+[[r2_buckets]]
+binding = "ATTACHMENTS"
+bucket_name = "nodewarden-attachments"
